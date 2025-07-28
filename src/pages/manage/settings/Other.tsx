@@ -333,8 +333,8 @@ const OtherSettings = () => {
         </FormLabel>
         <FolderChooseInput
           id="thunderX_temp_dir"
-          value={thunderTempDir()}
-          onChange={(path) => setThunderTempDir(path)}
+          value={thunderXTempDir()}
+          onChange={(path) => setThunderXTempDir(path)}
         />
       </FormControl>
       <Button
